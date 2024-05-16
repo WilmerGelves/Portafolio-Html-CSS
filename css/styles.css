@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #ece8fd;
+}
+.contenedor{
+    margin: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+header{
+    margin: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #b8c1ec;
+}
+
+.foto-personal > img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px; 
+    margin-left: 30px; 
+    border-style: hidden;
+}
+
+.header-texto{
+    margin-left: 40px;
+    line-height: 25px;
+    color: #232946;
+    
+}
+.informacion{
+    border: 2px solid black;
+    margin: 20px;
+}
+.informacion{
+    display: flex; 
+    border-radius: 5px;  
+    background-color: #fffffe;
+}
+.seccion{
+    width: 33.3%;
+    margin: 20px;
+    background-color: #b8c1ec;
+    border-radius: 5px
+    
+}
+.perfil-profesional{
+    text-align: justify;
+}
+p{
+    color: black ;
+    text-align:left
+}
+
+h3{
+    text-align: center;
+    background-color:#232946;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 30px;
+    color: #fffffe;
+    
+    
+}
+.perfil-profesional,.estudios-academicos,.cursos-especializados,.Idiomas,.stack-tecnologico,.experiencia-laboral{
+    margin: 20px 20px;
+}
+
+
+
+
+
